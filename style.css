@@ -35,6 +35,10 @@
      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
  }
 
+ .card_head {
+     font-size: 1.2rem;
+ }
+
  /* hero section css start here  */
 
  .herosection {
@@ -129,8 +133,6 @@
      color: white !important;
  }
 
-
-
  /* review section css part start here  */
 
  .review_upperPart img {
@@ -151,9 +153,30 @@
  }
 
  /* css media query code start here  */
-
  @media screen and (max-width: 700px) {
      .card-body .card-text {
          text-align: center;
+     }
+ }
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+     .heroLowerLeftSection h4 {
+         font-size: 14px;
+     }
+
+     .content h6 {
+         font-size: 15px;
+     }
+
+     .navfont {
+         font-size: 10px !important;
+     }
+
+     .readmoreInnerContent span {
+         font-size: 11px;
+     }
+
+     .card-body h4 {
+         font-size: 13px;
      }
  }
