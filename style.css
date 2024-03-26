@@ -57,6 +57,11 @@
      background-color: #D22086;
  }
 
+ button:hover {
+     background-color: #1BABA1 !important;
+     color: black !important;
+ }
+
  .content h6 {
      color: rgb(29, 210, 150);
  }
@@ -89,9 +94,21 @@
      color: rgb(144, 6, 110);
  }
 
- .priceCard:hover {
+ .price-card:hover .priceCard {
      text-decoration: underline;
  }
+
+ .price-card:hover .card_upperPart {
+     background-color: #D22086;
+     color: white !important;
+ }
+
+ .price-card:hover .p,
+ .price-card:hover span {
+     color: white !important;
+ }
+
+
 
  /* review section css part start here  */
 
@@ -102,6 +119,14 @@
 
  .contentfont {
      font-size: 11px;
+ }
+
+ .review_upperPart:hover {
+     background-color: #1BABA1;
+ }
+
+ .review_upperPart:hover p {
+     color: white !important;
  }
 
  /* css media query code start here  */
