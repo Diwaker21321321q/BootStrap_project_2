@@ -1,0 +1,113 @@
+ * {
+     font-family: Open Sans;
+     color: #394447;
+ }
+
+ ::-webkit-scrollbar {
+     display: none;
+ }
+
+ /* common css class start here  */
+ .navfont {
+     font-size: 13px;
+ }
+
+ .head_font {
+     font-family: Lora !important;
+     color: #394447;
+ }
+
+ .logo {
+     background-color: #1BABA1;
+ }
+
+ .cursor {
+     cursor: pointer;
+ }
+
+ .cardhover,
+ .pricehover {
+     transition: 0.16s linear;
+ }
+
+ .cardhover:hover {
+     transform: scale(0.99);
+     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+
+ /* hero section css start here  */
+
+ .herosection {
+     height: 80vh;
+     background-repeat: no-repeat;
+     background-image: url("./Images/replace_image_5.jpg");
+     background-size: cover;
+     background-position: center;
+ }
+
+ .input {
+     width: 550px;
+     height: 51px;
+     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+
+ .input button {
+     top: 7px;
+     right: 5px;
+     background-color: #D22086;
+ }
+
+ .content h6 {
+     color: rgb(29, 210, 150);
+ }
+
+ /* read more css code start here  */
+
+ .customerName,
+ .readmoreInnerContent span {
+     color: rgb(10, 181, 124);
+ }
+
+ .readMore,
+ .how_it_works_section,
+ .review_section {
+     background-color: rgb(238, 251, 248);
+ }
+
+ /* card section css part start here  */
+
+ .cards_button button,
+ #basic-addon2 {
+     background-color: #D22086;
+ }
+
+ .card_upperPart {
+     background-color: aliceblue;
+ }
+
+ .number {
+     color: rgb(144, 6, 110);
+ }
+
+ .priceCard:hover {
+     text-decoration: underline;
+ }
+
+ /* review section css part start here  */
+
+ .review_upperPart img {
+     top: -26px;
+     left: 38%;
+ }
+
+ .contentfont {
+     font-size: 11px;
+ }
+
+ /* css media query code start here  */
+
+ @media screen and (max-width: 700px) {
+     .card-body .card-text {
+         text-align: center;
+     }
+ }
