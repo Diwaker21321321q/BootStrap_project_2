@@ -43,6 +43,27 @@
      background-image: url("./Images/replace_image_5.jpg");
      background-size: cover;
      background-position: center;
+     animation: changeimg 35s ease-in infinite;
+ }
+
+ @keyframes changeimg {
+     0% {
+
+         background-image: url("./Images/pexels2.jpg");
+     }
+
+     30% {
+         background-image: url("./Images/replace_image_5.jpg");
+
+     }
+
+     70% {
+         background-image: url("./Images/pexels3.jpg");
+     }
+
+     100% {
+         background-image: url("./Images/pexels2.jpg");
+     }
  }
 
  .input {
